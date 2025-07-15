@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            Forms
+        </title>
+</head>            
+<body>
+    <h1>Hotel Booking</h1>
+    <form>
+        <label for="inputRoomtype">Room type:</label>
+        <select id="roomType" name="roomType" required>
+      <option value="">Please Select</option>
+      <option value="single">Single</option>
+      <option value="double">Double</option>
+      <option value="suite">Suite</option>
+    </select><br><br>
+
+              <label for="inputNumber of Guests">Number of Guests:</label>
+       <select id="guests" name="guests" required>
+      <option value="">Please Select</option>
+      <option value="1">1</option>
+      <option value="2">2</option>
+      <option value="3">3</option>
+      <option value="4">4</option>
+    </select><br><br>
+
+              <label for="inputNname">Name:</label>
+         <input type="text" id="Fristname"  placeholder="Frist" required/>
+         <input type="text" id="lastname"  placeholder="last" required/>
+              <br><br>
+
+          <label for="inputEmail"> Email:</label>
+        <input type="Email" id="inputEmail"    placeholder="john@company.com" required/>
+          <br><br>
+
+          <label for="inputPassward"> password:</label>
+            <input type="password" id="inputPassword" required/>
+              <br><br>
+
+          <label for="inputconfirmPassword">  Confirm password:</label>
+           <input type="password" id="inputconfirmPassword"required/>
+              <br><br>
+
+              <label for="inputArrival">Arrival:</label>
+              <input type="date"/>
+             <input type="time"/>
+                <br><br>
+
+              <label for="Departure">Departure:</label>
+             <input type="date">
+             <input type="time">
+               <br><br>
+              <label for="inputFreepickup">Free pickup:</label>
+          <input type="radio" name="Freepickup" id="Yes" />
+       <label for="Yes">Yes,Isure!</label><br />
+
+       <input type="radio" name="Freepickup" id="No" />
+      <label for="No">No,I already rented a car</label>
+      <br><br>
+
+
+      
+
+              <label for="inputFlightNumber">Flight Number:</label>
+        <input type="text" id="inputFlightNumber" required/>
+              <br><br>
+
+              <label for="inputotherrequirest">Other requirest:</label>
+        <input type="text" id="inputOtherrequirest" required/>
+              <br><br><br>
+
+
+        <input type="submit" value="Complete Reservation"/>
+
+        </form>
+        </body>
+        </html>
